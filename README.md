@@ -2,6 +2,18 @@
 # Empty
 Repositori buit
 
+Exercici 1
+
+Explica quines comandes de Linux Pots fer servir a l’hora d’analitzar logs escrits a
+fitxer per a:
+
+Veure contínuament els logs que es van escrivint a un arxiu
+    Comanda: tail -f nom_fitxer.log
+Aquesta comanda mostra les línies finals d'un fitxer i continua mostrant qualsevol línia nova que s'afegeixi en temps real.
+
+Cercar una paraula concreta dintre d’un arxiu de log
+    Comanda: grep "paraula" nom_fitxer.log
+Aquesta comanda cerca totes les línies que continguin la paraula especificada dins del fitxer.
 
 Exercici 2 Punt2
 2- Que creieu que és millor mostrar els logs per exemple a la terminal durant l'execució del programa o bolcar-los en un fitxer de text? Afegiu al readme.md
