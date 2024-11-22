@@ -30,8 +30,6 @@ Exercici 2 Punt3
 | Instanciar un objecte logger des d’una configuració     | `logging.config.fileConfig('config.ini')` | Permet configuracions avançades sense modificar el codi.        | Requereix mantenir fitxers de configuració   externs.                                                |
 
 
-
-
 Exercici 2 Punt4
 
 | Característica                    | Python (`logging`)                       | Java (`java.util.logging`)            | Node.js (`winston`)                                    |
