@@ -1,8 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ULiw8LbN)
-# Empty
-Repositori buit
 
-Exercici 1
+# Exercici 1
 
 Explica quines comandes de Linux Pots fer servir a l’hora d’analitzar logs escrits a
 fitxer per a:
@@ -15,13 +13,14 @@ Cercar una paraula concreta dintre d’un arxiu de log
     Comanda: grep "paraula" nom_fitxer.log
 Aquesta comanda cerca totes les línies que continguin la paraula especificada dins del fitxer.
 
-Exercici 2 Punt2
+# Exercici 2 Punt 2
+
 2- Que creieu que és millor mostrar els logs per exemple a la terminal durant l'execució del programa o bolcar-los en un fitxer de text? Afegiu al readme.md
 del repositori aquesta pregunta amb la seva reposta
 
 És millor mostrar els logs a la terminal durant el desenvolupament, per facilitar la depuració immediata. En producció, cal emmagatzemar-los en fitxers per assegurar un historial durador i accessible.
 
-Exercici 2 Punt3
+# Exercici 2 Punt3
 
 | Mètode                                                  | Exemple                                   | Avantatges                                                      | Desavantatges                         |
 |---------------------------------------------------------|-------------------------------------------|-----------------------------------------------------------------|-------------------------------------------|
@@ -30,7 +29,7 @@ Exercici 2 Punt3
 | Instanciar un objecte logger des d’una configuració     | `logging.config.fileConfig('config.ini')` | Permet configuracions avançades sense modificar el codi.        | Requereix mantenir fitxers de configuració   externs.                                                |
 
 
-Exercici 2 Punt4
+# Exercici 2 Punt4
 
 | Característica                    | Python (`logging`)                       | Java (`java.util.logging`)            | Node.js (`winston`)                                    |
 |-----------------------------------|------------------------------------------|---------------------------------------|--------------------------------------------------------|
@@ -42,3 +41,5 @@ Exercici 2 Punt4
 | Mètode per fer log                | `logger.info("msg")`                     | `logger.info("msg")`                  | `logger.log('info', "msg")`                            |
 | Tipus de manejadors disponibles   | Pantalla, fitxer                         | Consola, fitxer                       | Consola, fitxer, serveis remots com AWS o MongoDB      |
 | Opcions de format                 | `%Y-%m-%d %H:%M:%S`                      | Patrons personalitzats via `Formatter`| JSON, string customitzat, o configuracions de transports|
+
+
